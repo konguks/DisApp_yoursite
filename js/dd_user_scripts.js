@@ -9,26 +9,22 @@
  {
     
     
-     /* button  #mapback */
-    $(document).on("click", "#mapback", function(evt)
+     /* button  #btnexit */
+    $(document).on("click", "#btnexit", function(evt)
     {
          /*global activate_page */
          //activate_page("#mainpage"); 
-        window.location.href='Det.html'; 
+        navigator.app.exitApp();
     });
     
-        /* button  #rqdd */
-    $(document).on("click", "#rqdd", function(evt)
+        /* button  #btnback */
+    $(document).on("click", "#btnback", function(evt)
     {
          /*global activate_page */
          //activate_page("#mainpage"); 
-        window.location.href='dd.html';
+         window.location.href='Map.html';
     });
-    
-    }    
- document.addEventListener("app.Ready", register_event_handlers, false);
-})();
-function crd_clk(){
-        window.location.href='dist.html';
     
     }
+ document.addEventListener("app.Ready", register_event_handlers, false);
+})();

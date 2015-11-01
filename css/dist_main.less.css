@@ -321,50 +321,22 @@ body:not(#afui) .upage-outer {
 .ui-footer > .single-centered > *.ui-radio input {
   display: none;
 }
-.left-receptacle {
-  float: left;
-}
-.right-receptacle {
-  float: right;
-}
-[data-uib="media/text"] p:first-of-type {
-  margin-top: 0px;
-}
-.ellipsis {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
-@media all {
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .wrapping-col > .d-margins,
-  .wrapping-col > .afScrollPanel > .d-margins {
-    margin-left: 6px;
-    margin-right: 6px;
-  }
-  .d-margins {
-    margin-bottom: 10px;
-  }
-}
-@media all {
-  .success p {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    color: #008040;
-  }
-}
-@media all {
-  .msg p {
-    font-size: 14px;
-    font-style: italic;
-    font-family: serif;
-  }
-}
 .ui-btn-hidden {
   display: none;
+}
+@media all {
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins {
+    margin-left: 4px;
+    margin-right: 5px;
+  }
+  .wrapping-col > .d-margins,
+  .wrapping-col > .afScrollPanel > .d-margins {
+    margin-left: 4px;
+    margin-right: 5px;
+  }
+  .d-margins {
+    margin-top: 9px;
+    margin-bottom: 10px;
+  }
 }

@@ -37,6 +37,14 @@
           window.location.href='Map.html';
     });
     
+        /* button  #btnpcd */
+    $(document).on("click", "#btnpcd", function(evt)
+    {
+         /*global activate_page */
+         //activate_page("#mainpage"); 
+        window.location.href='Map.html';
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
