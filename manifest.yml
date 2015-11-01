@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: DisApp-${random-word}
+  name: DisApp
+  memory: 64M
+  stack: cflinuxfs2
